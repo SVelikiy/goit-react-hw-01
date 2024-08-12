@@ -1,0 +1,65 @@
+.card {
+  width: 280px;
+  height: 320px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.avatar {
+  background-color: darkgrey;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.name {
+  font-size: 26px;
+  color: black;
+  font-weight: 900;
+  margin: 0;
+}
+
+.text {
+  font-size: 18px;
+  color: darkgrey;
+  margin: 0;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.userList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.userItem {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: darkgrey;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.userItemTitle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.userItemValue {
+  font-weight: 700;
+}
