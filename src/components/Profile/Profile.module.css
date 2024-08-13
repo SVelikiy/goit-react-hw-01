@@ -6,6 +6,7 @@
   background-color: #ffffff;
   margin: 0;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 .avatar {
@@ -35,6 +36,7 @@
   gap: 5px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .userList {
